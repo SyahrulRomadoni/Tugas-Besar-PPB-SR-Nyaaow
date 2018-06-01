@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_booking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityListBooking"
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="List Booking"
+        android:textSize="20dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lvhape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp" />
+
+    <!--<TableLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="150dp"-->
+        <!--android:background="@color/colorPrimary">-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:background="#FFFFFF">-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_margin="5dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="@color/background"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:padding="5dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="No"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textSize="20dp" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_margin="5dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="@color/background"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:padding="5dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="Nama"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textSize="20dp" />&ndash;&gt;-->
+
+            <!--<TextView-->
+                <!--android:textAlignment="center"-->
+                <!--android:width="100dp"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:background="@color/background"-->
+                <!--android:padding="5dp"-->
+                <!--android:text="Pc"-->
+                <!--android:textSize="20dp" />-->
+
+            <!--<TextView-->
+                <!--android:textAlignment="center"-->
+                <!--android:width="150dp"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:background="@color/background"-->
+                <!--android:padding="5dp"-->
+                <!--android:text="Tanggal"-->
+                <!--android:textSize="20dp" />-->
+
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:background="#FFFFFF">-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="1"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textAlignment="center"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textSize="20dp" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="Syahrul"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textAlignment="center"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textSize="20dp" />&ndash;&gt;-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/pc"-->
+                <!--android:text="pc"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="20dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tanggal"-->
+                <!--android:text="tanggal"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="20dp" />-->
+        <!--</TableRow>-->
+
+    <!--</TableLayout>-->
+
+</RelativeLayout>
